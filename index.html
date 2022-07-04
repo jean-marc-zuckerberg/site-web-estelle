@@ -1,46 +1,76 @@
 <html>
     <head>
+        <!-- Explication: "title" est le texte que Google et autres sites afficheront -->
         <title>Estelle Faulisi, Psychologue clinicienne à Chambéry</title>
         <meta name="description" content="Site professionel d'Estelle Faulisi.">
         <meta name="geo.placename" content="Chambéry">
         <meta name=”robots” content="index">
         <meta http-equiv="Content-Type" content="text/html; charset=latin-1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@master/css/iconoir.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.5.5.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.5.5.min.css">
     </head>
     <body>
         <header>
             <h1>Estelle Faulisi</h1>
-            <h4>Psychologue clinicienne à Chambéry</h3>
+            <h5>Psychologue clinicienne à Chambéry</h5>
         </header>
         <p>
-            Diplomée en psychologie mention psychopathologie clinique psychanalytique, j'accueuille tous publics, enfants, adolescents, et adultes, sur rendez-vous.
+            Diplomée en psychologie mention psychopathologie clinique psychanalytique,
+            j'accueuille tous publics, enfants, adolescents, et adultes, sur rendez-vous.
         </p>
 
         <h3>Contact</h3>
         <ul>
             <li><a href="tel:0782897373"><i class="iconoir-phone"></i> 07 82 89 73 73</a> </li>
-            <li><a href="mailto:faulisiestelle@gmail.com?subject=Demande d'informations"><i class="iconoir-mail"></i> estelle-faulisi-psychologue@gmail.com </a></li>
-            <li><i class="iconoir-pin-alt"></i> 36 rue croix d’or , 73000 Chambéry </li>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.2759430028364!2d5.921665616036501!3d45.56488923473946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba8fc101e9a67%3A0x1fe76f3ceb237367!2s36%20Rue%20Croix%20d&#39;Or%2C%2073000%20Chamb%C3%A9ry%2C%20France!5e0!3m2!1sen!2sus!4v1655083835632!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <li>
+                <!-- Explication: "subject=" est le texte auto-rempli quand les utilisateurs
+                     cliquent sur l'addresse email -->
+                <a href="mailto:faulisiestelle@gmail.com?subject=Demande d'informations">
+                    <i class="iconoir-mail"></i> faulisiestelle@outlook.fr
+                </a>
+            </li>
+            <li><i class="iconoir-pin-alt"></i> 36 rue croix d'or , 73000 Chambéry </li>
         </ul>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.2759430028364!2d5.921665616036501!3d45.56488923473946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba8fc101e9a67%3A0x1fe76f3ceb237367!2s36%20Rue%20Croix%20d&#39;Or%2C%2073000%20Chamb%C3%A9ry%2C%20France!5e0!3m2!1sen!2sus!4v1655083835632!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
     </body>
+
+
     <style>
+        /* Cette section  paufine le style de la page */ 
         body {
-            width: 600px;
+            
             max-width: 90%;
             margin: 0 auto;
+            font-size: 1.2em;
+            font-family: Montserrat;
         }
-        h1, h4 {
+        h1, h5 {
             text-align: center;
-            margin-bottom: 0px;
+            margin-bottom: 3px;
             margin-top: 0px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h5 {
+            font-size: 0.8em;
+            color: gray;
+        }
+        h3 {
+           margin-top:3em;
+        }
+        header {
+            margin-top: 1em;
+            margin-bottom: 1em;
         }
         li {
             list-style: none;
+        }
+        p {
+          margin-bottom:2em;
         }
         i {
             display: inline-block !important;
@@ -48,8 +78,14 @@
             margin-right: 8px;
         }
         .map {
-          margin-top: 3em;
+          margin: 3em auto;
+          width: 600px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        @media (min-width: 1000px) {
+            body {
+                width: 600px;
+            }
         }
     </style>
 </html>
