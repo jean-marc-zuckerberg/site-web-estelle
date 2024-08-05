@@ -1,100 +1,240 @@
-<html>
-    <head>
-        <!-- Explication: "title" est le texte que Google et autres sites afficheront -->
-        <title>Estelle Faulisi, Psychologue clinicienne à Chambéry</title>
-        <meta name="description" content="Site professionel d'Estelle Faulisi.">
-        <meta name="geo.placename" content="Chambéry">
-        <meta name=”robots” content="index">
-        <meta http-equiv="Content-Type" content="text/html; charset=latin-1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@master/css/iconoir.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css-1.5.5.min.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- La ligne ci dessous est le titre de l'onglet Web, pas le titre qui apparait sur la page -->
+    <title>Estelle FAULISI - Psychologue clinicienne à Chambéry</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
-    </head>
-    <body>
-        <header>
-            <h1>Estelle Faulisi</h1>
-            <h5>Psychologue clinicienne à Chambéry</h5>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="content">
+        <!-- Header -->
+        <header class="columns is-vcentered header-bg mb-6">
+            <div class="column is-two-thirds">
+                <div class="p-5">
+                    <h1 class="mb-2">Estelle FAULISI</h1>
+                    <h2>Psychologue clinicienne à Chambéry</h2>
+                </div>
+            </div>
+            <div class="column" style="padding-right: 0">
+                <figure><img src="./images/cabinet-1.png" alt="Cabinet de consultation" class="image"></figure>
+                <!-- img src="./images/cabinet-1.png" alt="Cabinet de consultation" class="image" -->
+            </div>
         </header>
-        <p>
-            Diplomée en psychologie mention psychopathologie clinique psychanalytique,
-            j'accueille tous publics, enfants, adolescents, et adultes, sur rendez-vous.
-        </p>
 
-        <h3>Contact</h3>
-        <ul>
-            <li><a href="tel:0782897373"><i class="iconoir-phone"></i> 07 82 89 73 73</a> </li>
-            <li>
-                <!-- Explication: "subject=" est le texte auto-rempli quand les utilisateurs
-                     cliquent sur l'addresse email -->
-                <a href="mailto:faulisiestelle@outlook.fr?subject=Demande d'informations">
-                    <i class="iconoir-mail"></i> faulisiestelle@outlook.fr
-                </a>
-            </li>
-            <li><i class="iconoir-pin-alt"></i> 36 rue Croix d'Or, 73000 Chambéry </li>
-        </ul>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.2759430028364!2d5.921665616036501!3d45.56488923473946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba8fc101e9a67%3A0x1fe76f3ceb237367!2s36%20Rue%20Croix%20d&#39;Or%2C%2073000%20Chamb%C3%A9ry%2C%20France!5e0!3m2!1sen!2sus!4v1655083835632!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <!-- Three columns -->
+        <section>
+            <div class="columns tricolumn">
+                <div class="column">
+                    <h3>Consultations</h3>
+                    <ul class="ml-5">
+                        <li>À mon cabinet le lundi et mercredi.</li>
+                        <li>À domicile le vendredi pour les personnes dont l'état psycho-somatique
+                            ou physique ne leur permet pas de se déplacer</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Pour qui ?</h3>
+                    <p>Mes consultations sont individuelles et à destination des enfants, adolescents et adultes</p>
+                </div>
+                <div class="column">
+                    <h3>Mon expérience</h3>
+                    <p >Diplomée en psychologie mention psychopathologie clinique
+                        psychanalytique, j’ai acquis des expériences multiples
+                        auprès d’enfants et adolescents relevant de la
+                        protection de l’enfance, ansi qu’en hôpital de jour,
+                        auprès d’adultes présentant des problématiques
+                        addictives. Je pratique également en milieu hospitalier dans un service
+                        soignant des patients douloureux chroniques et
+                        auprès de sujets âgés.</p>
+                </div>
+            </div>
+        </section>
 
-    </body>
+        <section>
+              <img src="images/cabinet_large.jpeg" alt="Consultation Room">         
+        </section>
+    
+    
+        <section>
+            <div class="columns header-bg contact">
+                <div class="column is-half">
+                    <div class="map">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.886093484138!2d5.912188578238875!3d45.57272917107608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba8599a1236a5%3A0x6542f3d1772c14a1!2s300%20Rue%20Nicolas%20Parent%2C%2073000%20Chamb%C3%A9ry%2C%20France!5e0!3m2!1sen!2sus!4v1722737809400!5m2!1sen!2sus"
+                          width="100%"
+                          height="450"
+                          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="column">
+                    <ul class="icon-list">
+                        <a href="tel:0782897373">
+                            <li>
+                                <div class="icon-circle">
+                                    <i class="fas fa-phone icon"></i>
+                               </div>
+                               <span>07 82 89 73 73</span>
+                            </li>
+                        </a>
+                        <a href="mailto:faulisiestelle@outlook.fr?subject=Demande d'informations">
+                            <li>
+                                <div class="icon-circle">
+                                    <i class="fas fa-envelope icon"></i>
+                                </div>
+                                <span>faulisiestelle@outlook.fr</span>
+                            </li>
+                        </a>
+                        <li>
+                            <div class="icon-circle">
+                                <i class="fas fa-map-marker-alt icon"></i>
+                            </div>
+                            <span>300 rue Nicolas Parent<br> 73000 CHAMBERY</span>
+                        </li>
+                        <li>
+                            <div class="icon-circle">
+                                <i class="fas fa-wheelchair icon"></i>
+                            </div>
+                            <span>Accès aux personnes à mobilité réduite</span>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </section>
 
 
-    <style>
-        /* Cette section  paufine le style de la page */ 
-        html {
-            background: url('./backgrounds/background.webp');
-        }
-        body {
-            
-            max-width: 90%;
-            margin: 0 auto;
-            font-size: 1.1em;
-            background: none;
-        }
-        h1, h5 {
-            text-align: center;
-            margin-bottom: 0.2em;
-            margin-top: 0px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 0.3em
-        }
-        h5 {
-          font-size: 1em;
-          color: gray;
-        }
-        h3 {
-           margin-top:3em;
-        }
-        header {
-            margin-top: 1em;
-            margin-bottom: 1em;
-        }
-        li {
-            list-style: none;
-        }
-        i {
-            display: inline-block !important;
-            margin-bottom: -4px;
-            margin-right: 8px;
-        }
-        .map {
-          margin: 3em auto;
-          width: 600px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-        @media (max-width: 1000px) {
-            body {
-                font-size: 1em;
-            }
-        }
-        @media (min-width: 800px) {
-            body {
-                width: 600px;
-            }
-        }
-    </style>
+        <!-- section class="section">
+            <div class="container" style='text-align: center'>
+                <button class="button large-button">PRENDRE RENDEZ-VOUS</button>
+            </div>
+        </section-->
+    </div>
+</div>
+</body>
+<style>
+    body {
+        font-family: 'Spectral', 'Times New Roman', Times, serif;
+        color: #333;
+        line-height: 1.6;
+        background-color: rgb(247, 243, 243);
+        font-size: 18px !important;
+    }
+    .header-bg {
+        background-color: #f5f1e8;
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+        line-height: 1.2 !important;
+    }
+    h1 {
+        font-size: 3.5rem !important;
+        font-weight: normal !important;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 2.2rem !important;
+        font-weight: normal !important;
+        text-align: center;
+    }
+    h3 {
+        font-size: 2rem !important;
+        font-weight: bold !important;
+        border-bottom: 1px solid #333;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem !important;
+        text-align: center;
+        font-style: italic;
+    }
+
+    section {
+        background-color: white !important;
+        width: 100% !important;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .tricolumn  {
+        padding: 1.5rem;
+        margin-bottom: 2.5rem;
+        background-color: white !important
+    }
+    .tricolumn .column {
+        padding: 2rem;
+        hyphens: auto;
+    }
+
+    .contact {
+        padding: 0.5rem !important
+    }
+    .contact .column {
+        padding: 2rem;
+    }
+    .large-button {
+        background-color: #000;
+        color: #fff;
+        font-size: 1.5rem;
+        max-width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Spectral', 'Times New Roman', Times, serif;
+    }
+    .tricolumn li:before {
+        content: '\2022'; /* Unicode bullet character */
+        font-size: 1.5rem;
+        color: #000;
+        margin-right: 10px;
+    }
+    .icon-list {
+        list-style: none; /* Remove default bullets */
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .icon-list li:hover {
+        background-color: #f1f1f1;
+        transform: translateX(5px);
+    }
+
+    .icon-list li .icon-circle {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #000;
+        border-radius: 50%;
+        margin-right: 15px;
+        flex-shrink: 0;
+    }
+
+    .icon-list li .icon {
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+    .icon-list li span {
+        flex: 1;
+        font-size: 1.2rem;
+        color: #333;
+    }
+</style>
 </html>
